@@ -1,0 +1,20 @@
+@font-face{
+    font-family:Glyphter;
+    src:url(icon_fonts/Glyphter.eot);
+    src:url(icon_fonts/Glyphter.eot?#iefix) format('embedded-opentype'),
+        url(icon_fonts/Glyphter.woff) format('woff'),
+        url(icon_fonts/Glyphter.ttf) format('truetype'),
+        url(icon_fonts/Glyphter.svg#Glyphter) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+.icon-icon_cart:before,
+.icon-icon_heart_2:before,
+.icon-icon_login:before{
+    display:inline-block;
+    font-family:Glyphter;
+    font-style:normal
+}
+.icon-icon_cart:before{content:'\0041'}
+.icon-icon_login:before{content:'\0042'}
+.icon-icon_heart_2:before{content:'\0043'}
